@@ -11,7 +11,7 @@ kbd = Keyboard(usb_hid.devices)
 
 # 8 Rows 5 Columns
 km = keypad.KeyMatrix(
-    row_pins=(board.GP5, board.GP6, board.GP7, board.GP8, board.GP9, board.GP10, board.GP11, board.GP12),
+    row_pins=(board.GP5, board.GP6, board.GP7, board.GP8, board.GP9,board.GP10, board.GP11, board.GP12),
     column_pins=(board.GP0, board.GP1, board.GP2, board.GP3, board.GP4),
 )
 
@@ -33,24 +33,24 @@ key_ZX81 = {0 : Keycode.FIVE,
             13 : Keycode.NINE,
             14 : Keycode.ZERO,
             
-            15 : Keycode.Y,
-            16 : Keycode.U,
-            17 : Keycode.I,
-            18 : Keycode.O,
-            19 : Keycode.P,
+            15 : Keycode.G,
+            16 : Keycode.F,
+            17 : Keycode.D,
+            18 : Keycode.S,
+            19 : Keycode.A,
             
-            20 : Keycode.V,
-            21 : Keycode.C,
-            22 : Keycode.X,
-            23 : Keycode.Z,
-            24 : Keycode.LEFT_SHIFT,
+            20 : Keycode.Y,
+            21 : Keycode.U,
+            22 : Keycode.I,
+            23 : Keycode.O,
+            24 : Keycode.P,
+            
+            25 : Keycode.V,
+            26 : Keycode.C,
+            27 : Keycode.X,
+            28 : Keycode.Z,
+            29 : Keycode.LEFT_SHIFT,
 
-            25 : Keycode.G,
-            26 : Keycode.F,
-            27 : Keycode.D,
-            28 : Keycode.S,
-            29 : Keycode.A,
-            
             30 : Keycode.H,
             31 : Keycode.J,
             32 : Keycode.K,
